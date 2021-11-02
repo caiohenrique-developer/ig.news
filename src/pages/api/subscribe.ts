@@ -43,7 +43,7 @@ export default async (req: NextApiRequest, res: NextApiResponse ) => {
                     ),
                     {
                         data: {
-                            stripe_custormer_id: stripeCustomer.id
+                            stripe_customer_id: stripeCustomer.id
                         }
                     }
                 )
